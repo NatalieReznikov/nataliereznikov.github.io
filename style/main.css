@@ -1,0 +1,10 @@
+:root{
+    --MainColor: #282C34;
+    --AccentColor: #6FEB95;
+    --SecondaryAccentColor: #4C8C65;
+}
+
+
+.body{
+    background-color: var(--MainColor);
+}
