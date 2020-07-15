@@ -5,6 +5,7 @@
 }
 
 
-.body{
+body{
     background-color: var(--MainColor);
+    color: rgb(212, 212, 212);
 }
