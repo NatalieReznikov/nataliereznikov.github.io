@@ -5,6 +5,8 @@
     --MainColor: #282c34;
     --AccentColor: #6FEB95;
     --SecondaryAccentColor: #4C8C65;
+    --TitleFontSize: 70px;
+    --ShadowOpacity: 0.9;
 }
 
 
@@ -14,5 +16,30 @@ body{
     color: rgb(212, 212, 212);  
     text-align: center;
     font-family: 'Quicksand', sans-serif;
-    font-size: 40px;
+    font-size: var(--TitleFontSize);
+    padding: 0px;
+    margin: 0px;
+}
+
+#Main{
+    background-image: url(../assets/portrait.png);
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0px;
+}
+
+.shader{
+    background-color: var(--MainColor);
+    width: 100%;
+    height: 100%;
+    opacity: var(--ShadowOpacity);
+}
+
+.title{
+    position: relative;
+    top: 50%;
+    transform: translate(0,-50%);
 }
