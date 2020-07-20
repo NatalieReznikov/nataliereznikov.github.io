@@ -1,11 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
 :root{
-    --MainColor: #282C34;
+    --MainColor: #282c34;
     --AccentColor: #6FEB95;
     --SecondaryAccentColor: #4C8C65;
 }
 
 
+
 body{
     background-color: var(--MainColor);
-    color: rgb(212, 212, 212);
+    color: rgb(212, 212, 212);  
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
 }
